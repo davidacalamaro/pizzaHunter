@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		86D916BE2798763300AC85C4 /* pizzaShop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86D916BD2798763200AC85C4 /* pizzaShop.swift */; };
+		86D916C027987AB200AC85C4 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86D916BF27987AB200AC85C4 /* DetailsViewController.swift */; };
 		86EEBC742797270A00984CD5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86EEBC732797270A00984CD5 /* AppDelegate.swift */; };
 		86EEBC762797270A00984CD5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86EEBC752797270A00984CD5 /* SceneDelegate.swift */; };
 		86EEBC782797270A00984CD5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86EEBC772797270A00984CD5 /* ViewController.swift */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		86D916BD2798763200AC85C4 /* pizzaShop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pizzaShop.swift; sourceTree = "<group>"; };
+		86D916BF27987AB200AC85C4 /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
 		86EEBC702797270A00984CD5 /* pizzaHunter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = pizzaHunter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		86EEBC732797270A00984CD5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		86EEBC752797270A00984CD5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -56,10 +60,12 @@
 		86EEBC722797270A00984CD5 /* pizzaHunter */ = {
 			isa = PBXGroup;
 			children = (
+				86EEBC772797270A00984CD5 /* ViewController.swift */,
+				86D916BD2798763200AC85C4 /* pizzaShop.swift */,
+				86EEBC792797270A00984CD5 /* Main.storyboard */,
+				86D916BF27987AB200AC85C4 /* DetailsViewController.swift */,
 				86EEBC732797270A00984CD5 /* AppDelegate.swift */,
 				86EEBC752797270A00984CD5 /* SceneDelegate.swift */,
-				86EEBC772797270A00984CD5 /* ViewController.swift */,
-				86EEBC792797270A00984CD5 /* Main.storyboard */,
 				86EEBC7C2797271900984CD5 /* Assets.xcassets */,
 				86EEBC7E2797271900984CD5 /* LaunchScreen.storyboard */,
 				86EEBC812797271900984CD5 /* Info.plist */,
@@ -140,7 +146,9 @@
 			files = (
 				86EEBC782797270A00984CD5 /* ViewController.swift in Sources */,
 				86EEBC742797270A00984CD5 /* AppDelegate.swift in Sources */,
+				86D916BE2798763300AC85C4 /* pizzaShop.swift in Sources */,
 				86EEBC762797270A00984CD5 /* SceneDelegate.swift in Sources */,
+				86D916C027987AB200AC85C4 /* DetailsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
